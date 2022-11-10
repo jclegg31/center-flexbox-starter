@@ -1,0 +1,50 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* tells the computer to switch the body element to start using a flexible layout! 
+That means that anything within the body tags will become flexible elements. */
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+
+
+}
+
+.centered{
+    padding: 0 3.125em;
+    font-family:'Montserrat', sans-serif; 
+    background: #f16059; 
+}
+
+
+
+h1 {
+    font-size: 2em; 
+    color: #fff; 
+    text-align: center;
+  }
+
+
+  @media screen and (min-width: 786px) {
+    h1 {
+      font-size: 3em;
+      color: blue;
+    }
+  }
+   
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 4em;
+      color: green;
+    }
+  }
